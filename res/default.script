@@ -1,0 +1,21 @@
+ui_print("Start removal script");
+mount("ext4", "EMMC", "/dev/block/platform/msm_sdcc.1/by-name/system", "/system");
+ui_print("");
+ui_print(" .----------------.  .----------------. ");
+ui_print("| .--------------. || .--------------. |");
+ui_print("| |     _____    | || | ____    ____ | |");
+ui_print("| |    |_   _|   | || ||_   \  /   _|| |");
+ui_print("| |      | |     | || |  |   \/   |  | |");
+ui_print("| |   _  | |     | || |  | |\  /| |  | |");
+ui_print("| |  | |_' |     | || | _| |_\/_| |_ | |");
+ui_print("| |  `.___.'     | || ||_____||_____|| |");
+ui_print("| |              | || |              | |");
+ui_print("| '--------------' || '--------------' |");
+ui_print(" '----------------'  '----------------' ");
+ui_print("");
+<INSERT HERE>
+unmount("/system");
+ui_print("done");
+ui_print("");
+
+
