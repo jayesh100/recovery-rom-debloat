@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #recovery-rom-debloat
 Node script which generates a recovery zip to remove bloatware from ROM. Useful for Android users who flash ROMs often and dislike having excessive apps on their phone.
 
@@ -13,3 +14,7 @@ This has been tested on an S5 (klte) running Oreo ([ROM here](https://forum.xda-
 3. `npm run create`
 4. Copy zip from `./build/removal.zip` onto phone and flash through recovery
 
+=======
+# recovery-rom-debloat
+Node script which generates a recovery zip to remove bloatware from ROM. Useful for Android users who flash ROMs often and dislike having excessive apps on their phone.
+>>>>>>> 496d717e531a8872b07e5972fbf0e23bd38e6cf4
