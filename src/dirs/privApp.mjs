@@ -1,3 +1,3 @@
-export const apps = ['AudioFX', 'Eleven', 'Trebuchet', 'DocumentsUI', 'Dialer'];
+export const apps = ['AudioFX', 'Eleven', 'Contacts', 'Trebuchet', 'DocumentsUI', 'Dialer', 'FlipFlap'];
 
 export const base = '/system/priv-app/';

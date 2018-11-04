@@ -1,3 +1,3 @@
-export const apps = ['EasterEgg', 'Email', 'LatinIME', 'messaging', 'GoogleHome'];
+export const apps = ['EasterEgg', 'Email', 'messaging'];
 
 export const base = '/system/app/';
